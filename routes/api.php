@@ -11,3 +11,4 @@ Route::get('/store/products/{slug}', [StoreController::class, 'product']);
 // Cart & checkout — stateless (Next.js manages cart in localStorage)
 Route::post('/store/checkout', [StoreController::class, 'checkout']);
 Route::get('/store/order/{orderNumber}', [StoreController::class, 'order']);
+ 
